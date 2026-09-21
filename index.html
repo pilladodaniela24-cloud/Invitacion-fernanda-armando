@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Fernanda & Armando</title>
+</head>
+
+<body>
+  <div class="envelope">
+
+    <div class="invitation-card">
+
+        <span>Fernanda</span>
+
+        <small>&</small>
+
+        <span>Armando</span>
+
+    </div>
+
+    <div class="envelope-flap"></div>
+
+    <div class="envelope-body">
+
+        <div class="wax-seal">
+            ✦
+        </div>
+
+    </div>
+
+</div>
+
+    <div class="cover-text">
+
+        <p>Una invitación especial</p>
+
+        <button id="openInvitation">
+            Abrir invitación
+        </button>
+
+    </div>
+
+</div>
+
+    <main class="container">
+<div class="hero-photo">
+    <img src="pareja.jpg" alt="Fernanda y Armando">
+</div>
+        <div class="subtitle">
+            Nuestra historia
+        </div>
+
+        <h1>
+            Fernanda & Armando
+        </h1>
+
+        <div class="divider"></div>
+
+        <p>
+            Tenemos una historia que contar...
+        </p>
+
+        <h2>
+            Nos casamos
+        </h2>
+
+        <div class="date">
+            15 · AGOSTO · 2027
+        </div>
+        <div class="countdown">
+
+    <div class="countdown-title">
+        Faltan
+    </div>
+
+    <div class="countdown-time">
+
+        <div>
+            <span id="days">0</span>
+            <small>Días</small>
+        </div>
+
+        <div>
+            <span id="hours">0</span>
+            <small>Horas</small>
+        </div>
+
+        <div>
+            <span id="minutes">0</span>
+            <small>Minutos</small>
+        </div>
+
+        <div>
+            <span id="seconds">0</span>
+            <small>Segundos</small>
+        </div>
+
+    </div>
+
+<div class="music-player">
+
+    <div class="music-title">
+        ♫ Nuestra canción
+    </div>
+
+    <p class="song-name">
+        Una canción para recordar este día
+    </p>
+
+    <audio id="weddingMusic">
+    <source src="cancion.mp3" type="audio/mpeg">
+</audio>
+
+<div class="music-progress">
+    <div class="music-progress-bar" id="musicProgress"></div>
+</div>
+
+<button type="button" id="musicButton" class="music-button">
+    ♡ Reproducir
+</button>
+
+<div id="menu" class="buttons">
+    <a href="#historia" class="button">♡ Nuestra historia</a>
+    <a href="#galeria" class="button secondary">♡ Galería</a>
+    <a href="#ubicacion" class="button secondary">♡ Ubicación</a>
+    <a href="#vestimenta" class="button secondary">♡ Vestimenta</a>
+    <a href="#itinerario" class="button secondary">♡ Itinerario</a>
+    <a href="#regalos" class="button secondary">♡ Regalos</a>
+    <a href="#rsvp" class="button secondary">♡ RSVP</a>
+</div>
+
+<h2 id="historia">
+    Un amor para recordar
+</h2>
+
+<p>
+    Todo comenzó con una mirada, una conversación
+    y esos pequeños momentos que poco a poco
+    se convirtieron en una gran historia de amor.
+</p>
+
+<div class="timeline">
+
+    <div class="timeline-item">
+        <div class="timeline-date">El comienzo</div>
+        <p>
+            Aquí podemos contar cómo se conocieron.
+            Ese primer encuentro que cambió todo.
+        </p>
+    </div>
+
+    <div class="timeline-item">
+        <div class="timeline-date">Un día especial</div>
+        <p>
+            Aquí podemos colocar un recuerdo importante
+            de su relación.
+        </p>
+    </div>
+
+    <div class="timeline-item">
+        <div class="timeline-date">Para siempre</div>
+        <p>
+            Y ahora comienza un nuevo capítulo:
+            el día en que decidieron caminar juntos para siempre.
+        </p>
+    </div>
+
+</div>
+
+<div class="divider"></div>
+
+<p class="love-note">
+    Gracias por ser parte de nuestra historia. ♡
+</p>  
+
+        </section>
+        <!-- GALERÍA -->
+
+<section id="galeria" class="gallery reveal">
+
+    <div class="subtitle">
+        Nuestros momentos
+    </div>
+
+    <h2>
+        Un poco de nuestra historia
+    </h2>
+
+    <p>
+        Algunos momentos que queremos guardar para siempre.
+    </p>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item">
+    <img src="foto1.JPEG" alt="Momento especial">
+</div>
+
+<div class="gallery-item">
+    <img src="foto2.jpeg" alt="Momento especial">
+</div>
+
+<div class="gallery-item">
+    <img src="foto3.png" alt="Momento especial">
+</div>
+
+    </div>
+
+</section>
+<section id="ubicacion" class="location">
+
+    <div class="subtitle">
+        El gran día
+    </div>
+
+    <h2>
+        ¿Dónde celebraremos?
+    </h2>
+
+    <p>
+        Queremos compartir este momento tan especial
+        contigo. Aquí encontrarás todos los detalles
+        para acompañarnos en nuestro gran día.
+    </p>
+
+    <div class="location-card">
+
+        <h3>
+            Ceremonia
+        </h3>
+
+        <p>
+            Iglesia de Santa María<br>
+            5:00 PM
+        </p>
+
+        <a href="https://www.google.com/maps/search/?api=1&query=Iglesia+de+Santa+Maria"
+           target="_blank"
+           class="button">
+            ♡ Ver ubicación
+        </a>
+
+
+        <h3>
+            Recepción
+        </h3>
+
+        <p>
+            Jardín Los Rosales<br>
+            7:00 PM
+        </p>
+
+        <a href="https://www.google.com/maps/search/?api=1&query=Jardin+Los+Rosales"
+           target="_blank"
+           class="button">
+            ♡ Ver ubicación
+        </a>
+
+    </div>
+
+</section>
+<!-- ITINERARIO -->
+
+<section id="itinerario" class="itinerary">
+
+    <div class="subtitle">
+        El gran día
+    </div>
+
+    <h2>
+        Así celebraremos nuestro amor
+    </h2>
+
+    <p>
+        Estos son algunos de los momentos
+        que compartiremos contigo.
+    </p>
+
+    <div class="itinerary-timeline">
+
+        <div class="itinerary-item">
+
+            <div class="itinerary-time">
+                5:00 PM
+            </div>
+
+            <div class="itinerary-content">
+
+                <div class="itinerary-icon">
+                    ♡
+                </div>
+
+                <h3>
+                    Ceremonia
+                </h3>
+
+                <p>
+                    Comienza nuestra historia
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="itinerary-item">
+
+            <div class="itinerary-time">
+                6:30 PM
+            </div>
+
+            <div class="itinerary-content">
+
+                <div class="itinerary-icon">
+                    ✦
+                </div>
+
+                <h3>
+                    Recepción
+                </h3>
+
+                <p>
+                    Bienvenidos a celebrar.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="itinerary-item">
+
+            <div class="itinerary-time">
+                7:00 PM
+            </div>
+
+            <div class="itinerary-content">
+
+                <div class="itinerary-icon">
+                    ♡
+                </div>
+
+                <h3>
+                    Cena
+                </h3>
+
+                <p>
+                    Compartiremos este momento.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="itinerary-item">
+
+            <div class="itinerary-time">
+                8:30 PM
+            </div>
+
+            <div class="itinerary-content">
+
+                <div class="itinerary-icon">
+                    ✧
+                </div>
+
+                <h3>
+                    Primer baile
+                </h3>
+
+                <p>
+                    Un momento para recordar
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="itinerary-item">
+
+            <div class="itinerary-time">
+                9:00 PM
+            </div>
+
+            <div class="itinerary-content">
+
+                <div class="itinerary-icon">
+                    ♫
+                </div>
+
+                <h3>
+                    ¡A celebrar!
+                </h3>
+
+                <p>
+                    Música, baile y alegría.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="vestimenta"class="dress-code">
+
+    <div class="subtitle">
+        Código de vestimenta
+    </div>
+
+    <h2>
+        Una noche para celebrar
+    </h2>
+
+    <p>
+        Queremos compartir contigo una noche
+        especial, así que te invitamos a vestir
+        con un toque elegante.
+    </p>
+
+    <div class="dress-code-card">
+
+        <div class="dress-icon">
+            ✦
+        </div>
+
+        <h3>
+            Formal / Elegante
+        </h3>
+
+        <p>
+            Mujeres: vestido o conjunto elegante.
+            <br>
+            Hombres: traje o camisa de vestir.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- REGALOS -->
+
+<section id="regalos" class="gifts">
+
+    <div class="subtitle">
+        Un detalle para nosotros
+    </div>
+
+    <h2>
+        Tu presencia es nuestro mejor regalo
+    </h2>
+
+    <p>
+        Lo más importante para nosotros es compartir
+        este día contigo. Pero si deseas tener un
+        detalle, puedes elegir la opción que prefieras.
+    </p>
+
+    <div class="gift-options">
+
+        <div class="gift-card">
+
+            <div class="gift-icon">
+                ♡
+            </div>
+
+            <h3>
+                Buzón de sobres
+            </h3>
+
+            <p>
+                Tendremos un buzón disponible durante
+                la recepción para quienes deseen
+                obsequiarnos un detalle en efectivo.
+            </p>
+
+        </div>
+
+
+        <div class="gift-card">
+
+            <div class="gift-icon">
+                ✦
+            </div>
+
+            <h3>
+                Wishlist
+            </h3>
+
+            <p>
+                También puedes consultar nuestra lista
+                de deseos y elegir algo especial para
+                nosotros.
+            </p>
+
+            <a href="#" class="button">
+                ♡ Ver wishlist
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="rsvp" class="rsvp">
+
+    <div class="subtitle">
+        Confirma tu asistencia
+    </div>
+
+    <h2>
+        ¿Nos acompañas?
+    </h2>
+
+    <p>
+        Nos encantaría compartir este día tan especial contigo.
+        Por favor, confirma tu asistencia.
+    </p>
+
+    <div class="rsvp-card">
+
+        <label for="nombre">Tu nombre</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre">
+
+        <label for="asistencia">¿Asistirás?</label>
+        <select id="asistencia">
+            <option value="">Selecciona una opción</option>
+            <option value="si">Sí, ahí estaré ♡</option>
+            <option value="no">No podré asistir</option>
+        </select>
+
+        <label for="acompanantes">Número de acompañantes</label>
+        <input type="number" id="acompanantes" min="0" placeholder="0">
+
+        <button type="button">
+            ♡ Confirmar asistencia
+        </button>
+<p id="rsvpMessage" class="rsvp-message"></p>
+    </div>
+
+</section>
+
+    </main>
+    <!-- LIGHTBOX -->
+
+<div class="lightbox" id="lightbox">
+
+    <button class="lightbox-close" id="lightboxClose">
+        ×
+    </button>
+
+    <img id="lightboxImage" src="" alt="Foto ampliada">
+
+</div>
+<script>
+
+
+const formulario = document.querySelector(".rsvp-card");
+
+formulario.querySelector("button").addEventListener("click", function() {
+
+    const nombre = document.getElementById("nombre").value;
+    const asistencia = document.getElementById("asistencia").value;
+    const acompanantes = document.getElementById("acompanantes").value;
+
+    if (!nombre || !asistencia) {
+        alert("Por favor completa tu nombre y confirma si asistirás.");
+        return;
+    }
+
+    fetch("https://script.google.com/macros/s/AKfycbzcS_HzSOr1F7766zUKPp8ojSBHtLI48kFcr5rd0KaCfV_G8ZdsbeCiE6WE7njT0BUqpg/exec", {
+        method: "POST",
+        mode: "no-cors",
+        body: JSON.stringify({
+            nombre: nombre,
+            asistencia: asistencia,
+            acompanantes: acompanantes || 0
+        })
+    });
+
+    const mensaje = document.getElementById("rsvpMessage");
+
+    if (asistencia === "si") {
+        mensaje.textContent =
+            "¡Qué alegría! Te esperamos para celebrar con nosotros. ♡";
+    } else {
+        mensaje.textContent =
+            "Gracias por avisarnos. Te tendremos presente con mucho cariño. ♡";
+    }
+
+});
+
+
+// MÚSICA
+
+const music = document.getElementById("weddingMusic");
+const musicButton = document.getElementById("musicButton");
+const musicProgress = document.getElementById("musicProgress");
+
+music.addEventListener("timeupdate", function() {
+
+    const progress = (music.currentTime / music.duration) * 100;
+
+    musicProgress.style.width = progress + "%";
+
+});
+musicButton.addEventListener("click", function() {
+
+    if (music.paused) {
+        music.play();
+        musicButton.textContent = "Ⅱ Pausar";
+    } else {
+        music.pause();
+        musicButton.textContent = "♡ Reproducir";
+    }
+
+});
+
+// =========================
+// ABRIR INVITACIÓN
+// =========================
+
+const envelope = document.querySelector(".envelope");
+const openInvitation = document.getElementById("openInvitation");
+const container = document.querySelector(".container");
+const coverText = document.querySelector(".cover-text");
+
+openInvitation.addEventListener("click", function () {
+
+    openInvitation.disabled = true;
+
+    // 1. Abrir el sobre
+    envelope.classList.add("open");
+
+    // 2. Esperar a que la tarjeta salga
+    setTimeout(function () {
+
+        // 3. Desvanecer suavemente el sobre y el texto
+        envelope.classList.add("hide-envelope");
+        coverText.classList.add("hide-cover-text");
+
+        // 4. Mostrar la invitación después de la transición
+        setTimeout(function () {
+
+            container.classList.add("show");
+
+            // 5. Retirar los elementos de portada
+            setTimeout(function () {
+
+                envelope.style.display = "none";
+                coverText.style.display = "none";
+
+            }, 1200);
+
+        }, 500);
+
+    }, 1800);
+
+});
+
+
+
+
+// CONTADOR REGRESIVO
+
+const weddingDate = new Date("August 15, 2027 17:00:00").getTime();
+
+const countdown = setInterval(function() {
+
+    const now = new Date().getTime();
+    const difference = weddingDate - now;
+
+    const days = Math.floor(
+        difference / (1000 * 60 * 60 * 24)
+    );
+
+    const hours = Math.floor(
+        (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+
+    const minutes = Math.floor(
+        (difference % (1000 * 60 * 60)) / (1000 * 60)
+    );
+
+    const seconds = Math.floor(
+        (difference % (1000 * 60)) / 1000
+    );
+
+    document.getElementById("days").textContent = days;
+    document.getElementById("hours").textContent = hours;
+    document.getElementById("minutes").textContent = minutes;
+    document.getElementById("seconds").textContent = seconds;
+
+    if (difference < 0) {
+
+        clearInterval(countdown);
+
+        document.querySelector(".countdown-time").innerHTML =
+            "¡Hoy es el gran día! ♡";
+
+    }
+
+}, 1000);
+
+
+// LIGHTBOX DE LA GALERÍA
+
+const galleryImages = document.querySelectorAll(".gallery-item img");
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.getElementById("lightboxImage");
+const lightboxClose = document.getElementById("lightboxClose");
+
+galleryImages.forEach(function(image) {
+
+    image.addEventListener("click", function() {
+
+        lightboxImage.src = image.src;
+        lightboxImage.alt = image.alt;
+
+        lightbox.classList.add("show");
+
+    });
+
+});
+
+lightboxClose.addEventListener("click", function() {
+
+    lightbox.classList.remove("show");
+
+});
+
+lightbox.addEventListener("click", function(event) {
+
+    if (event.target === lightbox) {
+        lightbox.classList.remove("show");
+    }
+
+});
+const elementos = document.querySelectorAll(".reveal");
+
+const observador = new IntersectionObserver(function(entradas) {
+
+    entradas.forEach(function(entrada) {
+
+        if (entrada.isIntersecting) {
+            entrada.target.classList.add("visible");
+        }
+
+    });
+
+});
+
+elementos.forEach(function(elemento) {
+    observador.observe(elemento);
+});
+
+</script>
+<a href="#menu" class="back-to-menu">♡ Menú</a>
+</body>
+</html>
