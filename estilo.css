@@ -1282,3 +1282,78 @@ button:hover {
     line-height: 1.7;
     margin: 0;
 }
+/* =========================
+   ITINERARIO - CELULAR
+========================= */
+
+@media (max-width: 600px) {
+
+    .itinerary {
+        margin-top: 60px;
+        padding-top: 35px;
+    }
+
+    .itinerary h2 {
+        font-size: 28px;
+        line-height: 1.3;
+        margin-bottom: 18px;
+    }
+
+    .itinerary > p {
+        padding: 0 15px;
+        margin-bottom: 35px;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .itinerary-timeline {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .itinerary-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 22px;
+        width: 100%;
+    }
+
+    .itinerary-time {
+        min-width: 62px;
+        width: 62px;
+        padding-top: 20px;
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        text-align: right;
+        flex-shrink: 0;
+    }
+
+    .itinerary-content {
+        flex: 1;
+        min-width: 0;
+        box-sizing: border-box;
+        padding: 20px 18px;
+        border-radius: 16px;
+    }
+
+    .itinerary-icon {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .itinerary-content h3 {
+        font-size: 18px;
+        margin-bottom: 6px;
+        line-height: 1.3;
+    }
+
+    .itinerary-content p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+}
